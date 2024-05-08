@@ -1,0 +1,27 @@
+
+
+/* Comienzo de los estilos para pantalla de móvil (menos de 400px de ancho) */
+
+@media (max-width: 499px){
+    .navBarContent{
+        background-color: rgb(25, 25, 25);
+        height: 8vh;
+    }
+    .navBarBtn{
+        margin: 0px;
+    }
+}
+
+/* FIN de los estilos para pantalla de móvil (menos de 400px de ancho) */
+/* Comienzo de los estilos para pantalla de escritorio (más de 400px de ancho) */
+
+@media (min-width: 499px){
+    .navBarContent{
+        background-color: rgb(25, 25, 25);
+        height: 8vh;
+        border-bottom: solid thin white;
+    }
+    .navBarBtn{
+        margin: 0px;
+    }
+}
