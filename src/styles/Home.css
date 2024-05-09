@@ -65,14 +65,21 @@
     
     /*LAUTARO*/
     .name{
-        color: white;
+        background-image: url(https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExNHY5c3NtOG1qaTVnZnF3Zmk5b3dpbnQ3OWU0ZG1rZ2JiMXBjOXF1aiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/rcFs59ww1R7yeFszmo/giphy.gif);
+        background-size: cover;
+        background-position: -40;
+        color: transparent;
+        background-clip: text;
         font-family: "MajorMono";
         font-size: 10vh;
         margin: 0;
     }
     /*NUÑEZ*/
     .surname{
-        color:white;
+        background-image: url(https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExNHY5c3NtOG1qaTVnZnF3Zmk5b3dpbnQ3OWU0ZG1rZ2JiMXBjOXF1aiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/rcFs59ww1R7yeFszmo/giphy.gif);
+        background-size: cover;
+        color: transparent;
+        background-clip: text;
         font-family: "MajorMono";
         font-size: 14vh;
         margin: 0;

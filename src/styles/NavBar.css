@@ -1,3 +1,15 @@
+/*ANIMACIONES*/
+@keyframes aparecer {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+
+/*FUENTES*/
 @font-face {
     font-family: "MajorMono";
     src: url('../fonts/MajorMonoDisplay-Regular.ttf'); /* Ruta a tu archivo de fuente, puede ser .ttf, .otf, etc. */
@@ -54,5 +66,15 @@
         height: 5vh;
         width: 5vh;
         padding: 1.5vh;
+    }
+
+    .lengMenu{
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        right: 0;
+        top: 8.5vh;
+        opacity: 0;
+        animation: aparecer 0.5s ease forwards;
     }
 }
