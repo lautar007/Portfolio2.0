@@ -1,4 +1,7 @@
-
+@font-face {
+    font-family: "MajorMono";
+    src: url('../fonts/MajorMonoDisplay-Regular.ttf'); /* Ruta a tu archivo de fuente, puede ser .ttf, .otf, etc. */
+}
 
 /* Comienzo de los estilos para pantalla de móvil (menos de 400px de ancho) */
 
@@ -6,9 +9,12 @@
     .navBarContent{
         background-color: rgb(25, 25, 25);
         height: 8vh;
+        border-bottom: solid thin white;
     }
-    .navBarBtn{
-        margin: 0px;
+    .houseBtn{
+        height: 5vh;
+        width: 5vh;
+        margin: 1.5vh;
     }
 }
 
@@ -17,11 +23,36 @@
 
 @media (min-width: 499px){
     .navBarContent{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
         background-color: rgb(25, 25, 25);
         height: 8vh;
         border-bottom: solid thin white;
     }
-    .navBarBtn{
-        margin: 0px;
+    .houseBtn{
+        height: 5vh;
+        width: 5vh;
+        margin: 1.5vh;
+    }
+    .navBarmenu{
+        display: flex;
+        flex-direction: row;
+    }
+    .menuBtn{
+        background-color: rgb(25, 25, 25);
+        color: white;
+        font-family: "MajorMono";
+        height: 100%;
+        width: 12vw;
+        font-size: 1.5vw;
+        border-left: solid white;
+        border-top: solid rgb(25, 25, 25);
+    }
+    .lenguageBtn{
+        border-left: solid white;
+        height: 5vh;
+        width: 5vh;
+        padding: 1.5vh;
     }
 }
