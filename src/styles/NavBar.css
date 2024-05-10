@@ -60,6 +60,7 @@
         font-size: 1.5vw;
         border-left: solid white;
         border-top: solid rgb(25, 25, 25);
+        cursor: pointer;
     }
     .lenguageBtn{
         border-left: solid white;
