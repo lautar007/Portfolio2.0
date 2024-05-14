@@ -1,0 +1,15 @@
+
+document.addEventListener('DOMContentLoaded', function() {
+    const hoverDiv = document.getElementById("PlasticoV2");
+    console.log(hoverDiv)
+    // const changeColorH2 = document.querySelector('.change-color');
+
+    // if()
+    // hoverDiv.addEventListener('mouseenter', function() {
+    //     changeColorH2.style.backgroundColor = 'yellow';
+    // });
+
+    // hoverDiv.addEventListener('mouseleave', function() {
+    //     changeColorH2.style.backgroundColor = 'white';
+    // });
+});

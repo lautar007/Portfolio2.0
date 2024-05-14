@@ -14,6 +14,11 @@
     src: url('../fonts/MajorMonoDisplay-Regular.ttf'); /* Ruta a tu archivo de fuente, puede ser .ttf, .otf, etc. */
 }
 
+@font-face {
+  font-family: "Infinity";
+  src: url('../fonts/MADEINFINITYPersonalUse-Light.otf'); /* Ruta a tu archivo de fuente, puede ser .ttf, .otf, etc. */
+}
+
 /* Comienzo de los estilos para pantalla de móvil (menos de 400px de ancho) */
 
 @media (max-width: 499px){
@@ -33,12 +38,70 @@
         background-color: black;
         border-bottom: solid 3px rgb(100,100,100);
         border-top: solid 3px rgb(100,100,100);
+        justify-content: space-evenly;
+        padding-left: 5vw;
     }
     .time-line h2{
         color:white;
         font-family: 'MajorMono';
         width: 50vw;
-        margin: 2vh 0;
+        padding: 2vh 1vw;
+        margin: 0;
         font-size: 3vw;
+        transition: all 250ms ease;
+    }
+    
+    .works-up{
+      margin: 5vh 0 0 2vw;
+    }
+    .works-down{
+      margin: 22vh 0 0 55vw;
+    }
+
+    .workCard{
+      display: flex;
+      flex-direction: row;
+      background-color: lightgray;
+      width: 85vw;
+      border-radius: 15px;
+    }
+    .workCardContent{
+      display: flex;
+      flex-direction: column;
+    }
+    .workTitle{
+      font-family: "MajorMono";
+      margin: 2vh 0 0 1vw;
+      font-size: 16px;
+    }
+    .workBody{
+      font-family: "Infinity";
+      font-size: 14px;
+      margin: 2vh 1vw;
+    }
+
+
+    /*hovers and logos:*/
+    /*Plástico v.2.0.0:*/
+    .workLogoPV2{
+      width: 10vw;
+      height: 22vh;
+      object-fit: cover;
+      background-color: black;
+      border-right: solid 1vw #CA2E28;
+    }
+    .PlasticoV2hovered{
+      background-color: rgb(60, 0, 0);
+      border-left: solid #CA2E28;
+      border-right: solid #CA2E28;
+    }
+
+    /*Coding Giants:*/
+    .workLogoGiganci{
+      width: 10vw;
+      height: 22vh;
+      object-fit: cover;
+      background-color: black;
+      border-right: solid 1vw #e68200;
     }
 }
