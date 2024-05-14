@@ -24,9 +24,15 @@
 /* Comienzo de los estilos para pantalla de escritorio (más de 400px de ancho) */
 
 @media (min-width: 499px){
+    html{
+      background-color: rgb(25,25,25);
+    }
     .proyect-body{
         background-color: rgb(25,25,25);
         height: 92vh;
+        margin-top:1vh;
+        width: fit-content;
+        min-width: 100%;
     }
     .proyect-title{
         margin: 0; 
@@ -77,5 +83,12 @@
       color: transparent;
       border: none;
       margin: 0;
+    }
+
+    .clickIt{
+      width: 20vw;
+      height: 20vw;
+      padding: 2vh;
+
     }
 }

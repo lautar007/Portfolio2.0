@@ -1,0 +1,44 @@
+/*ANIMACIONES*/
+@keyframes aparecer {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+
+/*FUENTES*/
+@font-face {
+    font-family: "MajorMono";
+    src: url('../fonts/MajorMonoDisplay-Regular.ttf'); /* Ruta a tu archivo de fuente, puede ser .ttf, .otf, etc. */
+}
+
+/* Comienzo de los estilos para pantalla de móvil (menos de 400px de ancho) */
+
+@media (max-width: 499px){
+
+}
+
+/* FIN de los estilos para pantalla de móvil (menos de 400px de ancho) */
+/* Comienzo de los estilos para pantalla de escritorio (más de 400px de ancho) */
+
+@media (min-width: 499px){
+    .time-line{
+        display: flex;
+        flex-direction: row;
+        position: absolute;
+        top: 52vh;
+        left: 0;
+        background-color: black;
+        border-bottom: solid 3px rgb(100,100,100);
+        border-top: solid 3px rgb(100,100,100);
+    }
+    .time-line h2{
+        color:white;
+        font-family: 'MajorMono';
+        width: 50vw;
+        margin: 2vh 0;
+        font-size: 3vw;
+    }
+}

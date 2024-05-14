@@ -3,6 +3,7 @@ import '../styles/Proyects.css';
 import '../styles/PlasticoPry.css';
 import plasticoLogo from '../images/LogoPlastico.png';
 import plasticoFrame1 from '../images/plasticoFrame1.jpeg';
+import clickIt from '../images/ClickIt1.png';
 
 
 export default function Proyects(){
@@ -26,7 +27,7 @@ export default function Proyects(){
 
     return(
         <div className="proyect-body">
-            <h1 className="proyect-title">Proyectos.</h1>
+            <h1 className="proyect-title">Ultimos Proyectos.</h1>
             <hr className="top-separator"/>
             <div className="structure">
                 <div className="logo-bar">
@@ -50,7 +51,7 @@ export default function Proyects(){
                             </div> 
                         </div>
                         :
-                        null
+                        <img className="clickIt" alt="clickIt" src={clickIt}/>
                     }
                 </div>
             </div>
