@@ -44,7 +44,7 @@
     .time-line h2{
         color:white;
         font-family: 'MajorMono';
-        width: 50vw;
+        width: 55vw;
         padding: 2vh 1vw;
         margin: 0;
         font-size: 3vw;
@@ -52,6 +52,8 @@
     }
     
     .works-up{
+      display: flex;
+      flex-direction: row;
       margin: 5vh 0 0 2vw;
     }
     .works-down{
@@ -63,6 +65,7 @@
       flex-direction: row;
       background-color: lightgray;
       width: 85vw;
+      margin-right: 25vw;
       border-radius: 15px;
     }
     .workCardContent{
@@ -83,25 +86,70 @@
 
     /*hovers and logos:*/
     /*Plástico v.2.0.0:*/
+    .workCardPV2hovered{
+      display: flex;
+      flex-direction: row;
+      background-color: lightgray;
+      width: 85vw;
+      margin-right: 25vw;
+      border-radius: 15px;
+      transition: all 250ms ease;
+      border-bottom: solid 2vh #CA2E28;
+    }
     .workLogoPV2{
-      width: 10vw;
+      width: 22vh;
       height: 22vh;
       object-fit: cover;
       background-color: black;
       border-right: solid 1vw #CA2E28;
     }
     .PlasticoV2hovered{
-      background-color: rgb(60, 0, 0);
+     background-color: rgb(60, 0, 0);
       border-left: solid #CA2E28;
-      border-right: solid #CA2E28;
+      border-right: solid #CA2E28; 
     }
 
     /*Coding Giants:*/
+    .workCardCGhovered{
+      display: flex;
+      flex-direction: row;
+      background-color: lightgray;
+      margin-right: 25vw;
+      width: 85vw;
+      border-radius: 15px;
+      transition: all 250ms ease;
+      border-top: solid 2vh #e68200;
+    }
     .workLogoGiganci{
-      width: 10vw;
+      width: 22vh;
       height: 22vh;
       object-fit: cover;
       background-color: black;
       border-right: solid 1vw #e68200;
+    }
+    
+    .Gigancihovered{
+      background-color: rgb(60, 36, 0);
+      border-left: solid #e68200;
+      border-right: solid #e68200;
+    }
+
+    /*Expresia:*/
+    .workCardEXPhovered{
+      display: flex;
+      flex-direction: row;
+      background-color: lightgray;
+      margin-right: 25vw;
+      width: 85vw;
+      border-radius: 15px;
+      transition: all 250ms ease;
+      border-bottom: solid 2vh #6802a3;
+    }
+    .workLogoEXP{
+      width: 22vh;
+      height: 22vh;
+      object-fit: cover;
+      background-color: black;
+      border-right: solid 1vw #6802a3;
     }
 }

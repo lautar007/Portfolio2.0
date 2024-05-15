@@ -33,6 +33,7 @@
     .plasticoContent{
         background-color: rgb(30, 0, 0);
         width: 87vw;
+        height: 85%;
         opacity: 0;
         animation: aparecer 0.5s ease forwards;
     }
@@ -52,6 +53,7 @@
     .plasticoBodyCont{
         display: flex;
         flex-direction: row;
+        background-color: rgb(30, 0, 0);
     }
     .plasticoFrame{
         height:66vh;
@@ -59,6 +61,7 @@
     }
     .plasticoBody{
         width: 100%;
+        background-color: rgb(30, 0, 0);
     }
     .plasticoSubtitle{
         margin: 0;
@@ -79,10 +82,11 @@
     .plasticoLink{
         display: block;
         background-color: white;
-        padding: 12vh 5vh 2vh 5vh;
+        padding: 2vh 5vh 2vh 5vh;
         font-family: "Ageo-regular";
         font-size: 1.3vw;
         text-decoration: none;
         color: black;
+        bottom: -10px;
     }
 }

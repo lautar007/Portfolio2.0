@@ -29,7 +29,7 @@
     }
     .proyect-body{
         background-color: rgb(25,25,25);
-        height: 92vh;
+        height: fit-content;
         margin-top:1vh;
         width: fit-content;
         min-width: 100%;
@@ -77,7 +77,7 @@
 
     .vert-separator{
       width: 1vh;
-      height: 82vh;
+      height: 100vh;
       background-image: url(https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExNHY5c3NtOG1qaTVnZnF3Zmk5b3dpbnQ3OWU0ZG1rZ2JiMXBjOXF1aiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/rcFs59ww1R7yeFszmo/giphy.gif);
       background-size:auto;
       color: transparent;
