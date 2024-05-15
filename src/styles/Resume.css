@@ -31,41 +31,40 @@
 @media (min-width: 499px){
     .time-line{
         display: flex;
-        flex-direction: row;
-        position: absolute;
-        top: 52vh;
+        flex-direction: column;
+        position: fixed;
+        top: 22vh;
         left: 0;
         background-color: black;
         border-bottom: solid 3px rgb(100,100,100);
         border-top: solid 3px rgb(100,100,100);
         justify-content: space-evenly;
-        padding-left: 5vw;
+        padding-left: 2vw;
     }
     .time-line h2{
         color:white;
         font-family: 'MajorMono';
-        width: 55vw;
+        width: 25vw;
         padding: 2vh 1vw;
         margin: 0;
-        font-size: 3vw;
+        font-size: 1.5vw;
         transition: all 250ms ease;
     }
     
     .works-up{
       display: flex;
-      flex-direction: row;
+      flex-direction: column;
       margin: 5vh 0 0 2vw;
-    }
-    .works-down{
-      margin: 22vh 0 0 55vw;
     }
 
     .workCard{
       display: flex;
       flex-direction: row;
       background-color: lightgray;
-      width: 85vw;
-      margin-right: 25vw;
+      margin-left: 30vw;
+      margin-bottom: 4vh;
+      width: 60vw;
+      height: 30vh;
       border-radius: 15px;
     }
     .workCardContent{
@@ -90,15 +89,17 @@
       display: flex;
       flex-direction: row;
       background-color: lightgray;
-      width: 85vw;
-      margin-right: 25vw;
+      width: 60vw;
+      margin-left: 30vw;
+      margin-bottom: 4vh;
       border-radius: 15px;
       transition: all 250ms ease;
       border-bottom: solid 2vh #CA2E28;
+      border-top: solid 2vh #CA2E28;
     }
     .workLogoPV2{
-      width: 22vh;
-      height: 22vh;
+      width: 30vh;
+      height: 30vh;
       object-fit: cover;
       background-color: black;
       border-right: solid 1vw #CA2E28;
@@ -114,15 +115,17 @@
       display: flex;
       flex-direction: row;
       background-color: lightgray;
-      margin-right: 25vw;
-      width: 85vw;
+      width: 60vw;
+      margin-left: 30vw;
+      margin-bottom: 4vh;
       border-radius: 15px;
       transition: all 250ms ease;
+      border-bottom: solid 2vh #e68200;
       border-top: solid 2vh #e68200;
     }
     .workLogoGiganci{
-      width: 22vh;
-      height: 22vh;
+      width: 30vh;
+      height: 30vh;
       object-fit: cover;
       background-color: black;
       border-right: solid 1vw #e68200;
@@ -139,17 +142,180 @@
       display: flex;
       flex-direction: row;
       background-color: lightgray;
-      margin-right: 25vw;
-      width: 85vw;
+      width: 60vw;
+      margin-left: 30vw;
+      margin-bottom: 4vh;
       border-radius: 15px;
       transition: all 250ms ease;
       border-bottom: solid 2vh #6802a3;
+      border-top: solid 2vh #6802a3;
     }
     .workLogoEXP{
-      width: 22vh;
-      height: 22vh;
+      width: 30vh;
+      height: 30vh;
       object-fit: cover;
       background-color: black;
       border-right: solid 1vw #6802a3;
     }
+    .EXPhovered{
+      background-color: rgb(33, 0, 60);
+      border-left: solid #9200e6;
+      border-right: solid #9200e6;
+    }
+
+    /*Coder House*/
+    .workLogoCH{
+      width: 30vh;
+      height: 30vh;
+      object-fit: cover;
+      background-color: black;
+      border-right: solid 1vw #d6ee00;
+    }
+    .workCardCHhovered{
+      display: flex;
+      flex-direction: row;
+      background-color: lightgray;
+      width: 60vw;
+      margin-left: 30vw;
+      margin-bottom: 4vh;
+      border-radius: 15px;
+      transition: all 250ms ease;
+      border-bottom: solid 2vh #d6ee00;
+      border-top: solid 2vh #d6ee00;
+    }
+    .CHhovered{
+      background-color: rgb(51, 60, 0);
+      border-left: solid #d6ee00;
+      border-right: solid #d6ee00;
+    }
+
+    /*Digital House*/
+    .workLogoDH{
+      width: 30vh;
+      height: 30vh;
+      object-fit: cover;
+      background-color: black;
+      border-right: solid 1vw #ee0063;
+    }
+    .workCardDHhovered{
+      display: flex;
+      flex-direction: row;
+      background-color: lightgray;
+      width: 60vw;
+      margin-left: 30vw;
+      margin-bottom: 4vh;
+      border-radius: 15px;
+      transition: all 250ms ease;
+      border-bottom: solid 2vh #ee0063;
+      border-top: solid 2vh #ee0063;
+    }
+    .DHhovered{
+      background-color: rgb(60, 0, 30);
+      border-left: solid #ee0063;
+      border-right: solid #ee0063;
+    }
+
+    /*Plástico V.1.0.0:*/
+    .workLogoPV1{
+      width: 40vh;
+      height: 30vh;
+      object-fit: cover;
+      background-color: black;
+      border-right: solid 1vw #CA2E28;
+    }
+    .workCardPV1hovered{
+      display: flex;
+      flex-direction: row;
+      background-color: lightgray;
+      width: 60vw;
+      margin-left: 30vw;
+      margin-bottom: 4vh;
+      border-radius: 15px;
+      transition: all 250ms ease;
+      border-bottom: solid 2vh #CA2E28;
+      border-top: solid 2vh #CA2E28;
+    }
+    .PV1hovered{
+      background-color: rgb(60, 0, 0);
+      border-left: solid #CA2E28;
+      border-right: solid #CA2E28; 
+    }
+
+      /*Henry:*/
+      .workLogoHenry{
+        width: 40vh;
+        height: 30vh;
+        object-fit: cover;
+        background-color: black;
+        border-right: solid 1vw #000000;
+      }
+      .workCardHenryhovered{
+        display: flex;
+        flex-direction: row;
+        background-color: lightgray;
+        width: 60vw;
+        margin-left: 30vw;
+        margin-bottom: 4vh;
+        border-radius: 15px;
+        transition: all 250ms ease;
+        border-bottom: solid 2vh #fffb00;
+        border-top: solid 2vh #fffb00;
+      }
+      .Henryhovered{
+        background-color: rgb(60, 54, 0);
+        border-left: solid #fffb00;
+        border-right: solid #fffb00; 
+      }
+
+       /*IGA:*/
+       .workLogoIGA{
+        width: 40vh;
+        height: 30vh;
+        object-fit: cover;
+        background-color: black;
+        border-right: solid 1vw #1d3fff;
+      }
+      .workCardIGAhovered{
+        display: flex;
+        flex-direction: row;
+        background-color: lightgray;
+        width: 60vw;
+        margin-left: 30vw;
+        margin-bottom: 4vh;
+        border-radius: 15px;
+        transition: all 250ms ease;
+        border-bottom: solid 2vh #1d3fff;
+        border-top: solid 2vh #1d3fff;
+      }
+      .IGAhovered{
+        background-color: rgb(9, 0, 60);
+        border-left: solid #1d3fff;
+        border-right: solid #1d3fff; 
+      }
+
+      /*UNC:*/
+      .workLogoUNC{
+        width: 40vh;
+        height: 30vh;
+        object-fit: cover;
+        background-color: black;
+        border-right: solid 1vw #1d92ff;
+      }
+      .workCardUNChovered{
+        display: flex;
+        flex-direction: row;
+        background-color: lightgray;
+        width: 60vw;
+        margin-left: 30vw;
+        margin-bottom: 4vh;
+        border-radius: 15px;
+        transition: all 250ms ease;
+        border-bottom: solid 2vh #1d92ff;
+        border-top: solid 2vh #1d92ff;
+      }
+      .UNChovered{
+        background-color: rgb(0, 41, 60);
+        border-left: solid #1d92ff;
+        border-right: solid #1d92ff; 
+      }
 }
