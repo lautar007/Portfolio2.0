@@ -26,7 +26,7 @@ export default function Resume(){
         {
             titulo: "Expresia Canadá - Automatización de sitio web",
             logo: EXPLogo,
-            body: "La empresa ofrece sitios web personalizables que se pueden editar sin código. Para ello, mi tarea consisitió en utilizar el sistema de expresia para hacer que el sistema de edición impacte correctamente en el código del sitio, automatizándolo. Este trabajo requirió aprender la documentación para comprender el funcionamiento de la plataforma y su API."
+            body: "La empresa ofrece sitios web personalizables que se pueden editar sin código. Para ello, mi tarea consisitió en utilizar el sistema de expresia para hacer que la edición no-code (programación visual) impacte correctamente en el código del sitio, automatizándolo. Este trabajo requirió aprender la documentación para comprender el funcionamiento de la plataforma y su API."
         },
         {
             titulo: "Coder House Argentina - Profesor de porgramación Backend",
