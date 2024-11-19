@@ -7,10 +7,18 @@ import { Link } from "react-router-dom";
 export default function NavBar(){
 
     const [lengMenu, setLengMenu] = useState(false);
+    const lenguage = localStorage.getItem("lenguage") || "ESP";
+    console.log(lenguage)
 
     function handleLengMenu(e){
         e.preventDefault();
         setLengMenu(!lengMenu);
+    }
+
+    function setLanguage (e) {
+        e.preventDefault();
+        localStorage.setItem('lenguage', e.target.name);
+        window.location.reload();
     }
 
     return(
@@ -18,7 +26,8 @@ export default function NavBar(){
             <Link to="/">
                 <img className="houseBtn" alt="botonDeInicio" src={house}/>
             </Link>
-            <div className="navBarContent">     
+            <div className="navBarContent">
+                {lenguage === 'ESP' ? 
                 <div>
                     <Link to="/proyects">
                         <button className="menuBtn">ProyectoS</button>
@@ -30,13 +39,26 @@ export default function NavBar(){
                         <button className="menuBtn">Sobre mÍ</button>
                     </Link>
                 </div>
+                :
+                <div>
+                    <Link to="/proyects">
+                        <button className="menuBtn">ProyectS</button>
+                    </Link>
+                    <Link to="/resume">
+                        <button className="menuBtn">Cv</button>
+                    </Link>
+                    <Link to="/about">
+                        <button className="menuBtn">About mE</button>
+                    </Link>
+                </div>
+            }     
                     <img className="lenguageBtn" alt="botonDeIdioma" onClick={handleLengMenu} src={world}/>
             </div>  
             {
                 lengMenu ? 
                 <div className="lengMenu">
-                    <button className="menuBtn">Español</button>
-                    <button className="menuBtn">English</button>
+                    <button className="menuBtn" name="ESP" onClick={setLanguage}>Español</button>
+                    <button className="menuBtn" name="ENG" onClick={setLanguage}>English</button>
                 </div>
                 :
                 null

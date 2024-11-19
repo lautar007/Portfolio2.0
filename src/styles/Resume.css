@@ -19,16 +19,18 @@
   src: url('../fonts/MADEINFINITYPersonalUse-Light.otf'); /* Ruta a tu archivo de fuente, puede ser .ttf, .otf, etc. */
 }
 
-/* Comienzo de los estilos para pantalla de móvil (menos de 400px de ancho) */
 
-@media (max-width: 499px){
-
-}
-
-/* FIN de los estilos para pantalla de móvil (menos de 400px de ancho) */
 /* Comienzo de los estilos para pantalla de escritorio (más de 400px de ancho) */
 
 @media (min-width: 499px){
+
+    .header{
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-start;
+      margin-right: 2vw;
+    }
+
     .time-line{
         display: flex;
         flex-direction: column;
@@ -108,7 +110,7 @@
       background-color: black;
       border-right: solid 1vw #CA2E28;
     }
-    .PlasticoV2hovered{
+    .PV2hovered{
      background-color: rgb(60, 0, 0);
       border-left: solid #CA2E28;
       border-right: solid #CA2E28; 
@@ -127,7 +129,7 @@
       border-bottom: solid 2vh #e68200;
       border-top: solid 2vh #e68200;
     }
-    .workLogoGiganci{
+    .workLogoCG{
       width: 30vh;
       height: 30vh;
       object-fit: cover;
@@ -135,7 +137,7 @@
       border-right: solid 1vw #e68200;
     }
     
-    .Gigancihovered{
+    .CGhovered{
       background-color: rgb(60, 36, 0);
       border-left: solid #e68200;
       border-right: solid #e68200;
@@ -323,3 +325,12 @@
         border-right: solid #1d92ff; 
       }
 }
+
+
+/* Comienzo de los estilos para pantalla de móvil (menos de 400px de ancho) */
+
+@media (max-width: 499px){
+
+}
+
+/* FIN de los estilos para pantalla de móvil (menos de 400px de ancho) */

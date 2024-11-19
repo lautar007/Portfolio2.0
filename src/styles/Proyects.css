@@ -37,8 +37,10 @@
     .proyect-title{
         margin: 0; 
         color: white;
-        padding: 2vh 0 0 2vh;
+        padding: 2vh 1vw 0 2vh;
         font-family: "MajorMono";
+        width: fit-content;
+        height: 6vh;
         opacity: 0;
         animation: aparecer 1s ease forwards;
     }
