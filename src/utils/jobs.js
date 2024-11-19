@@ -5,10 +5,18 @@ import CHLogo from '../images/CHLogo.jpg';
 import DHLogo from '../images/DHLogo.png';
 import HenryLogo from '../images/HenryLogo.png';
 import IGALogo from '../images/IGALogo.png';
-import UNCLogo from '../images/UNCLogo.jpg'
+import UNCLogo from '../images/UNCLogo.jpg';
+import JalaLogo from '../images/jalaLogo.jpg';
 
 export const getWorksES = () =>{
     return [
+    {
+        titulo: "Jala University - Bootcamp sobre desarrollo web Full Stack",
+        logo: JalaLogo,
+        class: "JALA",
+        date: "jul.2024/nov.2024",
+        body: "Participé de un curso intensivo de programación web, ofrecido por Jala University. Por desgracia no pude completar la totalidad del curso, pero allí he adquirido conocimientos de frontend, utilizando TypeScript con React Y Redux. También he visto una introducción al backend en lenguaje Java, y algunos conocimientos de DevOps: uso de contenedores en Docker. Aprendí especialmente sobre diseño UX/UI, creando diseños de alta fidelidad en Figma."
+    },
     {
         titulo: "Plástico Estudio - sitio web v2.0.0",
         logo: plasticoLogo,
@@ -77,6 +85,13 @@ export const getWorksES = () =>{
 
 export const getWorksEN = () =>{
     return [
+        {
+            titulo: "Jala University - Full Stack Web Development Bootcamp",
+            logo: JalaLogo,
+            class: "JALA",
+            date: "jul.2024/nov.2024",
+            body: "I participated in an intensive web development course offered by Jala University. Unfortunately, I couldn't complete the entire course, but there I acquired knowledge in frontend development, using TypeScript with React and Redux. I also had an introduction to backend development in Java, and some knowledge of DevOps: using containers in Docker. I particularly learned about UX/UI design, creating high-fidelity designs in Figma."
+        },
         {
             titulo: "Plástico Estudio - website v2.0.0",
             logo: plasticoLogo,
