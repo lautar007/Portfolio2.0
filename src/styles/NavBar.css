@@ -18,6 +18,10 @@
 /* Comienzo de los estilos para pantalla de móvil (menos de 400px de ancho) */
 
 @media (max-width: 499px){
+    html{
+        height: 100vh;
+        background-color: rgb(25, 25, 25);
+    }
     .navBarContent{
         background-color: rgb(25, 25, 25);
         height: 8vh;
@@ -28,6 +32,50 @@
         width: 5vh;
         margin: 1.5vh;
     }
+    .buttonsDiv{
+        height: 8vh; /* Hace que el navbar ocupe el alto completo de la ventana */
+        width: 100%; /* Ancho del navbar */
+        display: flex;
+        position: absolute;
+        bottom: 0;
+        flex-direction: row;
+        justify-content: space-between;
+        background-color: rgb(25, 25, 25);
+        border-bottom: solid thin white;
+        border-top: solid thin white;
+    }
+    .lenguageBtn{
+        border-left: solid white;
+        position: absolute;
+        top:0;
+        right:0;
+        height: 5vh;
+        width: 5vh;
+        padding: 1.5vh;
+    }
+    .menuBtn{
+        background-color: rgb(25, 25, 25);
+        color: white;
+        font-family: "MajorMono";
+        height: 8vh;
+        width: 33vw;
+        font-size: 2vh;
+        border-left: solid white;
+        border-top: solid rgb(25, 25, 25);
+        cursor: pointer;
+        z-index: -1;
+    }
+    .lengMenu{
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        right: 0;
+        top: 8.5vh;
+        opacity: 0;
+        z-index: 1;
+        background-color: rgb(25, 25, 25);
+        animation: aparecer 0.5s ease forwards;
+    }
 }
 
 /* FIN de los estilos para pantalla de móvil (menos de 400px de ancho) */
@@ -35,6 +83,15 @@
 
 @media (min-width: 499px){
     .navBarContent{
+        height: 8vh; /* Hace que el navbar ocupe el alto completo de la ventana */
+        width: 100%; /* Ancho del navbar */
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        background-color: rgb(25, 25, 25);
+        border-bottom: solid thin white;
+    }
+    .buttonsDiv{
         height: 8vh; /* Hace que el navbar ocupe el alto completo de la ventana */
         width: 100%; /* Ancho del navbar */
         display: flex;

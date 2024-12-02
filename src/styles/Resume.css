@@ -356,7 +356,151 @@
 /* Comienzo de los estilos para pantalla de móvil (menos de 400px de ancho) */
 
 @media (max-width: 499px){
+  .header{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin-right: 2vw;
+  }
 
+  .time-line{
+      display: none;
+  }
+  
+  .works-up{
+    display: flex;
+    flex-direction: column;
+    margin: 5vh 0 0 0;
+    opacity: 0;
+    animation: aparecer 2s ease forwards;
+  }
+
+  .workCard{
+    display: flex;
+    flex-direction: column;
+    background-color: lightgray;
+    margin-bottom: 4vh;
+    width: 100vw;
+    height: fit-content;
+    border-radius: 15px;
+  }
+  .workCardContent{
+    display: flex;
+    flex-direction: column;
+  }
+  .workTitle{
+    font-family: "MajorMono";
+    margin: 1vh 0 0 28vw;
+    font-size: 20px;
+    min-height: 8vh;
+
+  }
+  .workBody{
+    font-family: "Infinity";
+    font-size: 16px;
+    margin: 3vh 3vw;
+  }
+
+
+  /*hovers and logos:*/
+  /*JALA: */
+  .workLogoJALA{
+    width: 12vh;
+    height: 12vh;
+    position: absolute;
+    background-color: black;
+    border-right: solid 1vw #359dff;
+  }
+ 
+  /*Plástico v.2.0.0:*/
+  .workLogoPV2{
+    width: 12vh;
+    height: 12vh;
+    position: absolute;
+    object-fit: cover;
+    background-color: black;
+    border-right: solid 1vw #CA2E28;
+  }
+ 
+  /*Coding Giants:*/
+  .workLogoCG{
+    width: 12vh;
+    height: 12vh;
+    position: absolute;
+    object-fit: cover;
+    background-color: black;
+    border-right: solid 1vw #e68200;
+  }
+
+  /*Expresia:*/
+  .workLogoEXP{
+    width: 12vh;
+    height: 12vh;
+    position: absolute;
+    object-fit: cover;
+    background-color: black;
+    border-right: solid 1vw #6802a3;
+  }
+
+  /*Coder House*/
+  .workLogoCH{
+    width: 12vh;
+    height: 12vh;
+    position: absolute;
+    object-fit: cover;
+    background-color: black;
+    border-right: solid 1vw #d6ee00;
+  }
+
+  /*Digital House*/
+  .workLogoDH{
+    width: 12vh;
+    height: 12vh;
+    position: absolute;
+    object-fit: cover;
+    background-color: black;
+    border-right: solid 1vw #ee0063;
+  }
+
+  /*Plástico V.1.0.0:*/
+  .workLogoPV1{
+    width: 12vh;
+    height: 12vh;
+    position: absolute;
+    object-fit: cover;
+    background-color: black;
+    border-right: solid 1vw #CA2E28;
+  }
+
+  /*Henry:*/
+  .workLogoHenry{
+    width: 12vh;
+    height: 12vh;
+    position: absolute;
+    object-fit: cover;
+    background-color: black;
+    border-right: solid 1vw #000000;
+  }
+
+  /*IGA:*/
+  .workLogoIGA{
+    width: 12vh;
+    height: 12vh;
+    position: absolute;
+    object-fit: cover;
+    background-color: black;
+    border-right: solid 1vw #1d3fff;
+  }
+
+  /*UNC:*/
+  .workLogoUNC{
+    width: 12vh;
+    height: 12vh;
+    position: absolute;
+    object-fit: cover;
+    background-color: black;
+    border-right: solid 1vw #1d92ff;
+  }
 }
 
 /* FIN de los estilos para pantalla de móvil (menos de 400px de ancho) */

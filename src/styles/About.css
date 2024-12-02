@@ -32,3 +32,24 @@
     margin-top: 0;
     color: white;
 }
+
+/* Comienzo de los estilos para pantalla de móvil (menos de 400px de ancho) */
+
+@media (max-width: 499px){
+    .aboutAndPhoto{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        width: 100vw;
+        height: 80vh;
+    }
+
+    .about-content{
+        background-color: #272727;
+        padding: 2vh;
+        width: 94vw;
+        border: solid thin white;
+        z-index: 2;
+    }
+}

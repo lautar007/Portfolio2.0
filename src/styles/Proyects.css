@@ -17,7 +17,55 @@
 /* Comienzo de los estilos para pantalla de móvil (menos de 400px de ancho) */
 
 @media (max-width: 499px){
+  .proyect-title{
+    margin: 0; 
+    color: white;
+    padding: 2vh 1vw 0 2vh;
+    font-family: "MajorMono";
+    width: fit-content;
+    height: 9vh;
+    opacity: 0;
+    animation: aparecer 1s ease forwards;
+}
+.top-separator{
+  height: 2vh;
+  background-image: url(https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExNHY5c3NtOG1qaTVnZnF3Zmk5b3dpbnQ3OWU0ZG1rZ2JiMXBjOXF1aiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/rcFs59ww1R7yeFszmo/giphy.gif);
+  background-size:auto;
+  color: transparent;
+  border: none;
+  margin: 1vh 0 0 0;
+  opacity: 0;
+  animation: aparecer 2s ease forwards;
+}
+.structure{
+  display: flex;
+  flex-direction: column;
+  opacity: 0;
+  animation: aparecer 2s ease forwards;
+}
+.logo-bar{
+  display: flex;
+  flex-direction: row;
+  height: fit-content;
+  width: 100vw;
+}
 
+.vert-separator{
+  display: none;
+}
+  .proyect-logo{
+    width: 25vw;
+    height: 25vw;
+    object-fit:cover;
+    margin: 1vh;
+  }
+  .clickIt{
+    display: none;
+    width: 20vw;
+    height: 20vw;
+    padding: 2vh;
+
+  }
 }
 
 /* FIN de los estilos para pantalla de móvil (menos de 400px de ancho) */

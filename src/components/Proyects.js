@@ -50,7 +50,7 @@ export default function Proyects(){
                         plasticBtn?
                         <div className="plasticoContent">
                             {lenguage === 'ESP'?
-                                <h1 className="plasticoTitle">{proyectosESP[0].titulo}</h1>
+                                <h1 className="plasticoTitle">{proyectosESP[0].titulo}.</h1>
                                 :
                                 <h1 className="plasticoTitle">{proyectosENG[0].titulo}</h1>
                             }

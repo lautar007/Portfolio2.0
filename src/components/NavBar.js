@@ -26,7 +26,7 @@ export default function NavBar(){
             <Link to="/">
                 <img className="houseBtn" alt="botonDeInicio" src={house}/>
             </Link>
-            <div className="navBarContent">
+            <div className="buttonsDiv">
                 {lenguage === 'ESP' ? 
                 <div>
                     <Link to="/proyects">
@@ -52,8 +52,8 @@ export default function NavBar(){
                     </Link>
                 </div>
             }     
-                    <img className="lenguageBtn" alt="botonDeIdioma" onClick={handleLengMenu} src={world}/>
             </div>  
+            <img className="lenguageBtn" alt="botonDeIdioma" onClick={handleLengMenu} src={world}/>
             {
                 lengMenu ? 
                 <div className="lengMenu">
