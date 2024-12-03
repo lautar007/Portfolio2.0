@@ -6,6 +6,7 @@ import Resume from './components/Resume';
 import About from './components/About';
 import DropDownMenu from './components/partials/DropDownMenu';
 import CVComponent from './components/partials/CVComponent';
+import ToDoProyect from './components/ToDo.tsx';
 
 function App() {
   return (
@@ -17,7 +18,8 @@ function App() {
         <Route exact path='/resume' element = {<div><NavBar/><Resume/></div>}/>
         <Route exact path='/resume/:type' element = {<div><CVComponent/></div>}/>
         <Route exact path='/about' element = {<div><NavBar/><About/></div>}/>
-        <Route exact path='/test' element = {<div><NavBar/><DropDownMenu/></div>}/>
+        <Route exact path='/ToDo' element = {<div><NavBar/><ToDoProyect/></div>}/>
+        <Route exact path='/test' element = {<div><NavBar/><ToDoProyect/></div>}/>
       </Routes>
     </div>
   </BrowserRouter>

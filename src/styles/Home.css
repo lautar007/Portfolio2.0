@@ -44,6 +44,13 @@
         font-size: 7vh;
         margin: 0;
     }
+
+    .miniproyectsTitle{
+        display: none;
+    }
+    .miniproyects{
+        display: none;
+    }
 }
 
 /* FIN de los estilos para pantalla de móvil (menos de 400px de ancho) */
@@ -65,6 +72,7 @@
         margin: 2vh 0 0 2vh;
         width: fit-content;
     }
+   
     
     /*LAUTARO*/
     .name{
@@ -87,5 +95,44 @@
         font-size: 14vh;
         margin: 0;
     }
-   
+
+    .miniproyectsTitle{
+        color: white;
+        position: absolute;
+        font-family: 'MajorMono';
+        top: 10vh;
+        left: 60vw;
+        
+    }
+    .miniproyects{
+        padding: 1vh;
+        position: absolute;
+        display: flex;
+        flex-direction: row;
+        border: solid thin white;
+        height: fit-content;
+        width: fit-content;
+        top: 17vh;
+        left: 60vw;
+    }
+    .Mproyect{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        margin: 0 1vw;
+        
+    }
+    .miniproyectImg{
+        height: 40px;
+        width: 40px;
+        z-index: 2;
+        object-fit: cover;
+    }
+    .MPlabel{
+        color: white;
+        text-decoration: none;
+        margin: 0px;
+    }
+
 }
