@@ -3,6 +3,7 @@ import "../styles/Home.css";
 import fondo from "../images/portfolioIMG.png";
 import todoIcon from "../images/checked.png";
 import pokedexIcon from "../images/pokedex.png";
+import elementIcon from "../images/elementores.png";
 import { Link } from "react-router-dom";
 
 export default function Home(){
@@ -32,6 +33,12 @@ export default function Home(){
             <div className="Mproyect">
                 <img src={pokedexIcon} className="miniproyectImg" alt="ToDo"/>
                 <p class="MPlabel">Pokedex</p>
+            </div>
+          </Link>
+          <Link to="https://lautar007.github.io/">
+            <div className="Mproyect">
+                <img src={elementIcon} className="miniproyectImg" alt="ToDo"/>
+                <p class="MPlabel">Elementors</p>
             </div>
           </Link>
         </div>
